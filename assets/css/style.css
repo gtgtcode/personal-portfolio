@@ -1,0 +1,22 @@
+/* Secular One Google Fonts Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Secular+One&display=swap');
+
+body {
+    font-family: 'Secular One';
+}
+
+.business-card {
+    background-color: black;
+    width: 800px;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.card-name {
+    margin-top: 200px;
+    margin-left: 20px;
+    color: white;
+    font-size: 40px;
+}
