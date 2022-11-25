@@ -10,6 +10,8 @@
     <!--reset.css and style.css import-->
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <!--Google Icons Import-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!--Javascript Import-->
     <script src="/assets/js/script.js" defer></script>
     <title>George T.</title>
@@ -17,13 +19,28 @@
 <body>
   <!--Business Card-->
   <header class="container-fluid business-card">
+    
+    <section class="left-angle"></section>
 
     <!--Bootstrap Grid-->
     <div class="row">
 
       <!--Left Column-->
       <div class="col card-left-column">
-        <h1 class="card-name">George Thomas</header>
+        <h1 class="card-name">George Thomas</h1>
+        <h6 class="card-subheader">Full-stack Developer</h6>
+        <section class="email-container">
+          <span class="material-symbols-outlined">
+            mail
+            </span>
+            <a href="mailto:glthomas526@gmail.com" class="email-link"><h6 style="display: inline;">glthomas526@gmail.com</h6></a>
+        </section>
+        <section class="phone-container">
+          <span class="material-symbols-outlined">
+            phone
+            </span>
+            <a href="tel:+8042293120"><h6 class="phone-link" style="display: inline;">(804) 229-3120</h6></a>
+        </section>
       </div>
 
       <!--Right Column-->
@@ -31,6 +48,7 @@
         
       </div>
     </div>
+    
   </header>
 </body>
 </html>

@@ -7,7 +7,9 @@ body {
 }
 
 .business-card {
-    background-color: black;
+    background-color: rgb(255, 248, 239);
+    border: 2px solid black;
+    overflow: hidden;
     width: 800px;
     height: 500px;
     margin-top: 20px;
@@ -17,6 +19,45 @@ body {
 .card-name {
     margin-top: 200px;
     margin-left: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 40px;
+    z-index: 6;
+    position: absolute;
+    top: 30px;
+}
+
+.card-subheader {
+    color: white;
+    position: absolute;
+    top: 290px;
+    transform: translate(23px);
+}
+
+.email-container {
+    color: white;
+    position: absolute;
+    top: 390px;
+    transform: translate(23px);
+}
+
+.phone-container {
+    color: white;
+    position: absolute;
+    top: 430px;
+    transform: translate(23px);
+}
+
+.email-link, .phone-link {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    transform: translate(10px, 5px);
+    width: 200px;
+}
+
+.left-angle {
+    background-color: black;
+    width: 500px;
+    height: 600px;
+    transform: rotate(10deg) translate(-80px, -40px);
 }
