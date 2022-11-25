@@ -55,6 +55,36 @@ body {
     width: 200px;
 }
 
+.phone-link:hover, .email-link:hover {
+    color:burlywood;
+}
+
+
+.card-right-column {
+    position: absolute;
+    transform: translate(450px,-385px);
+    width: 300px;
+}
+
+.right-links {
+    text-align: right;
+    
+}
+
+.right-links a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.right-links li {
+    margin-bottom: 30px;
+}
+
+.right-links a:hover {
+    color: rgb(196, 58, 58);
+}
+
 .left-angle {
     background-color: black;
     width: 500px;
