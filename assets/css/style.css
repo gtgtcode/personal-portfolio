@@ -107,7 +107,7 @@ body {
     background-color: rgb(255, 248, 239);
     padding: 40px;
     border-radius: 20px;
-    border: 1px solid black
+    border: 1px solid black;
 }
 
 .back-to-top {
@@ -127,4 +127,22 @@ body {
     font-size: 30px;
     
     margin-bottom: 100px;
+}
+
+.content-subheader {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+i {
+    font-size: 50px;
+}
+
+.stack-row {
+    margin-bottom: 20px;
+    background-color: rgb(255, 236, 211);
+    padding: 20px;
+    border-radius: 60px;
 }
