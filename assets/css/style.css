@@ -38,6 +38,20 @@ body {
     position: absolute;
     top: 390px;
     transform: translate(23px);
+    
+}
+
+.contact-content-container {
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(255, 236, 211);
+    border-radius: 50px;
+}
+
+.contact-email {
+    display: inline;
+    
 }
 
 .phone-container {
@@ -173,4 +187,36 @@ i {
     border: 1px solid black;
     padding: 10px;
     border-radius: 20px;
+}
+
+.project-link:hover {
+    box-shadow: 0 0 8px rgb(196, 58, 58);
+}
+
+footer {
+    margin-top: 80px;
+    background-color: rgb(17, 8, 8);
+    color: white;
+    padding: 30px;
+}
+
+.footer-col {
+    text-align: center;
+}
+
+.footer-ul, .footer-li {
+    margin-top: 20px;
+}
+
+.footer-header {
+    font-weight: bold;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link:hover {
+    color:burlywood;
 }
