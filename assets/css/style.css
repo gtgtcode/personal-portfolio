@@ -109,6 +109,15 @@ body {
     box-shadow: 0 0 10px rgb(196, 58, 58);
 }
 
+.contact-link {
+    text-decoration: none;
+    color:black;
+}
+
+.contact-link:hover {
+    color: rgb(196, 58, 58);
+}
+
 .left-angle {
     background-color: rgb(17, 8, 8);
     width: 500px;
@@ -162,7 +171,7 @@ i {
 }
 
 .project-row {
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .project-col {
@@ -219,4 +228,45 @@ footer {
 
 .footer-link:hover {
     color:burlywood;
+}
+
+@media (max-width: 576px) {
+    .business-card {
+        background-color: rgb(255, 248, 239);
+        border: 2px solid black;
+        overflow: hidden;
+        width: 100vw;
+        height: 500px;
+        margin-top: 20px;
+        border-radius: 0px;
+    }
+
+    .card-name {
+        margin-top: 200px;
+        margin-left: 20px;
+        color: rgb(255, 255, 255);
+        font-size: 10vw;
+        z-index: 6;
+        position: absolute;
+        top: 30px;
+    }
+    
+    .card-subheader {
+        color: white;
+        position: absolute;
+        top: 290px;
+        font-size: 6vw;
+        transform: translate(23px);
+    }
+
+    .card-right-column {
+        display: none;
+    }
+
+    .left-angle {
+        background-color: rgb(17, 8, 8);
+        width: 500px;
+        height: 600px;
+        transform: rotate(10deg) translate(-160px, -40px);
+    }
 }
