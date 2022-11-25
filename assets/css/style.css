@@ -107,7 +107,7 @@ body {
     background-color: rgb(255, 248, 239);
     padding: 40px;
     border-radius: 20px;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .back-to-top {
@@ -145,4 +145,32 @@ i {
     background-color: rgb(255, 236, 211);
     padding: 20px;
     border-radius: 60px;
+}
+
+.project-row {
+    margin-top: 80px;
+}
+
+.project-col {
+    min-width: 230px;
+    height: 400px;
+    margin: 5px;
+    background-color: rgb(255, 236, 211);
+    border-radius: 20px;
+}
+
+.project-content-header {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.project-img {
+    margin-bottom: 80px;
+}
+
+.project-link {
+    background-color: rgb(255, 248, 239);
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
 }
