@@ -6,6 +6,10 @@ body {
     font-family: 'Secular One';
 }
 
+ul {
+    list-style-type: none;
+}
+
 .business-card {
     background-color: rgb(255, 248, 239);
     border: 2px solid black;
