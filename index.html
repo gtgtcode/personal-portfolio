@@ -1,187 +1,387 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Bootstrap CSS Import-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://rawcdn.githack.com/gtgtcode/bs-extrawidth/afcd9e2cf9f86ced07c7e422bfef3c452b356aa7/bs-extrawidth.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://rawcdn.githack.com/gtgtcode/bs-extrawidth/afcd9e2cf9f86ced07c7e422bfef3c452b356aa7/bs-extrawidth.css"
+    />
     <!--reset.css and style.css import-->
-    <link rel="stylesheet" href="/assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <!--Google Icons Import-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <!--Devicon Import-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
     <!--Javascript Import-->
     <script src="/assets/js/script.js" defer></script>
     <title>George T.</title>
-    <link rel="icon" href="/assets/images/icon.png">
-</head>
-<body>
-  <!--Business Card-->
-  <nav class="btt-nav"><a href="#top"><button class="back-to-top">
-      <span class="material-symbols-outlined">
-      arrow_upward
-      </span>
-    </button>
-   </a>
-  </nav>
+    <link rel="icon" href="/assets/images/icon.png" />
+  </head>
+  <body>
+    <!--Business Card-->
+    <nav class="btt-nav">
+      <a href="#top"
+        ><button class="back-to-top">
+          <span class="material-symbols-outlined"> arrow_upward </span>
+        </button>
+      </a>
+    </nav>
 
-  <header class="container-fluid business-card" id="#top">
-    
-    <section class="left-angle"></section>
+    <header class="container-fluid business-card" id="#top">
+      <section class="left-angle"></section>
 
-    <!--Bootstrap Grid-->
-    <div class="row">
+      <!--Bootstrap Grid-->
+      <div class="row">
+        <!--Left Column-->
+        <div class="col card-left-column">
+          <h1 class="card-name">George Thomas</h1>
+          <h6 class="card-subheader">Front End Web Developer</h6>
+          <section class="email-container">
+            <span class="material-symbols-outlined"> mail </span>
+            <a href="mailto:glthomas526@gmail.com" class="email-link"
+              ><h6 style="display: inline">glthomas526@gmail.com</h6></a
+            >
+          </section>
+          <section class="phone-container">
+            <span class="material-symbols-outlined"> phone </span>
+            <a href="tel:+8042293120" class="phone-link"
+              ><h6 style="display: inline">(804) 229-3120</h6></a
+            >
+          </section>
+        </div>
 
-      <!--Left Column-->
-      <div class="col card-left-column">
-        <h1 class="card-name">George Thomas</h1>
-        <h6 class="card-subheader">Full-stack Developer</h6>
-        <section class="email-container">
-          <span class="material-symbols-outlined">
-            mail
-            </span>
-            <a href="mailto:glthomas526@gmail.com" class="email-link"><h6 style="display: inline;">glthomas526@gmail.com</h6></a>
-        </section>
-        <section class="phone-container">
-          <span class="material-symbols-outlined">
-            phone
-            </span>
-            <a href="tel:+8042293120" class="phone-link"><h6 style="display: inline;">(804) 229-3120</h6></a>
-        </section>
-      </div>
+        <!--Right Column-->
+        <div class="col card-right-column">
+          <!--Navigation Links-->
+          <nav class="right-links">
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
 
-      <!--Right Column-->
-      <div class="col card-right-column">
-        <!--Navigation Links-->
-        <nav class="right-links">
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-        
-        
-        <!--Social Media Links (Only used for GitHub for now.)-->
-        <section class="social-links">
-          <div class="row social-link-row">
-            <div class="col">
-              <a href="https://github.com/gtgtcode"><img src="./assets/images/GitHub-Mark-64px.png" height="40" class="content-image"></a>
+          <!--Social Media Links (Only used for GitHub for now.)-->
+          <section class="social-links">
+            <div class="row social-link-row">
+              <div class="col">
+                <a href="https://github.com/gtgtcode"
+                  ><img
+                    src="./assets/images/GitHub-Mark-64px.png"
+                    height="40"
+                    class="content-image"
+                /></a>
+              </div>
+              <div class="col">
+                <p style="transform: translateY(5px)">Follow me on GitHub!</p>
+              </div>
             </div>
-            <div class="col">
-              <p style="transform:translateY(5px);">Follow me on GitHub!</p>
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-  </header>
-
-  <!--Mobile Nav Links-->
-  <nav class="mobile-nav d-none">
-    <ul class="mobile-nav-ul">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </ul>
-  </nav>
-
-  <!--About Content Container-->
-  <section id="about" class="about-container container w-50 lg-w-75 md-w-100">
-    <h1 class="content-header">About</h1>
-
-    <p style="text-align: center;">Hello! My name is George! I am a full-stack web developer that loves to take on interesting projects.</p>
-
-    <h2 class="content-subheader">My Software Stack</h2>
-
-    <!--Software Stack Icons in a Grid-->
-    <div class="row stack-row" style="text-align: center;">
-      <div class="col"><i class="devicon-html5-plain colored"></i></div>
-      <div class="col"><i class="devicon-css3-plain colored"></i></div>
-      <div class="col"><i class="devicon-javascript-plain colored"></i></div>
-      <div class="col"><i class="devicon-bootstrap-plain colored"></i></div>
-    </div>
-  </section>
-
-  <!--Projects Content Container-->
-  <section id="projects" class="project-container container w-50 lg-w-75 md-w-100">
-    <h1 class="content-header">Projects</h1>
-
-    <p style="text-align: center;">These are some of my favorite projects! Take a look!</p>
-
-    <!--Projects in a Grid-->
-    <div class="row project-row" style="text-align: center;">
-      <div class="col project-col">
-        <h1 class="project-content-header">Placeholder</h1>
-        <img class="project-img" src="./assets/images/350x150.png" height="80">
-        <a href="#" style="display: block;"><button class="project-link">Visit Site</button></a>
-      </div>
-      <div class="col project-col">
-        <h1 class="project-content-header">Placeholder</h1>
-        <img class="project-img" src="./assets/images/350x150.png" height="80">
-        <a href="#" style="display: block;"><button class="project-link">Visit Site</button></a>
-      </div>
-      <div class="col project-col">
-        <h1 class="project-content-header">Placeholder</h1>
-        <img class="project-img" src="./assets/images/350x150.png" height="80">
-        <a href="#" style="display: block;"><button class="project-link">Visit Site</button></a>
-      </div>
-      <div class="col project-col">
-        <h1 class="project-content-header">Placeholder</h1>
-        <img class="project-img" src="./assets/images/350x150.png" height="80">
-        <a href="#" style="display: block;"><button class="project-link">Visit Site</button></a>
-      </div>
-    </div>
-  </section>
-
-  <!--Contact Content Container-->
-  <section id="contact" class="contact-container container w-50 lg-w-75 md-w-100">
-    <h1 class="content-header">Contact</h1>
-
-    <p style="text-align: center; padding-bottom: 60px; display: block;">Want to get in touch? Contact me here!</p>
-
-    <div class="contact-content-container"><a href="mailto:glthomas526@gmail.com" class="contact-link">
-      <span class="material-symbols-outlined" style="vertical-align:middle;">
-        mail
-      </span>
-      <p class="contact-email">glthomas526@gmail.com</p>
-    </a>
-    </div>
-    
-    <div class="contact-content-container"><a href="tel:+8042293120" class="contact-link">
-      <span class="material-symbols-outlined" style="vertical-align:middle;">
-        phone
-      </span>
-      <p class="contact-email">(804) 229-3120</p>
-    </a>
-    </div>
-  </section>
-
-  <footer>
-    <div class="row">
-      <div class="col footer-col">
-        <p style="margin-bottom: 20px;">George Thomas</p>
-        <a href="mailto:glthomas526@gmail.com" class="footer-link" style="margin-bottom: 20px; display: block;">glthomas526@gmail.com</a>
-        <a href="tel:+8042293120" class="footer-link" style="margin-bottom: 20px; display: block;">(804) 229-3120</a>
-        <div class="row" style="margin-bottom: 20px;">
-          <div class="col"><a href="https://github.com/gtgtcode"><img src="/assets/images/GitHub-Mark-Light-32px.png"></a></div>
+          </section>
         </div>
       </div>
-      <div class="col footer-col">
-        <h1 class="footer-header">Links</h1>
-        <ul class="footer-ul">
-          <li class="footer-li"><a href="#top" class="footer-link">Home</a></li>
-          <li class="footer-li"><a href="#about" class="footer-link">About</a></li>
-          <li class="footer-li"><a href="#projects" class="footer-link">Projects</a></li>
-          <li class="footer-li"><a href="#contact" class="footer-link">Contact</a></li>
-        </ul>
+    </header>
+
+    <!--Mobile Nav Links-->
+    <nav class="mobile-nav d-none">
+      <ul class="mobile-nav-ul">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </ul>
+    </nav>
+
+    <!--About Content Container-->
+    <section id="about" class="about-container container w-50 lg-w-75 md-w-100">
+      <h1 class="content-header">About</h1>
+
+      <p style="text-align: center">
+        Hello! My name is George! I am a front end web developer that loves to
+        take on interesting projects.
+      </p>
+
+      <h2 class="content-subheader">My Software Stack</h2>
+
+      <!--Software Stack Icons in a Grid-->
+      <div class="row stack-row" style="text-align: center">
+        <div class="col"><i class="devicon-html5-plain colored"></i></div>
+        <div class="col"><i class="devicon-css3-plain colored"></i></div>
+        <div class="col"><i class="devicon-javascript-plain colored"></i></div>
+        <div class="col"><i class="devicon-bootstrap-plain colored"></i></div>
+        <div class="col"><i class="devicon-tailwindcss-plain colored"></i></div>
       </div>
-    </div>
-  </footer>
-  
-</body>
+    </section>
+
+    <!--Projects Content Container-->
+    <section
+      id="projects"
+      class="project-container container w-50 lg-w-75 md-w-100"
+    >
+      <h1 class="content-header">Projects</h1>
+
+      <p style="text-align: center">
+        These are some of my favorite projects! Take a look!
+      </p>
+
+      <!--Projects in a Grid-->
+      <div class="row project-row" style="text-align: center">
+        <div class="col project-col">
+          <h6 class="project-content-header">beerMe</h6>
+          <p id="project-description">
+            beerMe is an app that can be used to search for bars in your area.
+          </p>
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#projectModal1"
+          >
+            <img class="project-img" src="./assets/images/beerMe.png" />
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="projectModal1"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div>
+                  <img
+                    id="modal-image"
+                    class="vw-100 md:vw-25"
+                    src="./assets/images/beerMe.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://cbw1981.github.io/beerMe/" style="display: block"
+            ><button class="project-link">Visit Site</button></a
+          >
+        </div>
+        <div class="col project-col">
+          <h6 class="project-content-header">ChatJOG</h6>
+          <p id="project-description">
+            ChatJOG is a fully functional social media application.
+          </p>
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#projectModal2"
+          >
+            <img class="project-img" src="./assets/images/ChatJOG.png" />
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="projectModal2"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div>
+                  <img
+                    id="modal-image"
+                    class="vw-100 md:vw-25"
+                    src="./assets/images/ChatJOG.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            href="https://hidden-brook-19511.herokuapp.com/login"
+            style="display: block"
+            ><button class="project-link">Visit Site</button></a
+          >
+        </div>
+        <div class="col project-col">
+          <h6 class="project-content-header">Weather App</h6>
+          <p id="project-description">
+            An application that lets you search your city's weather.
+          </p>
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#projectModal3"
+          >
+            <img class="project-img" src="./assets/images/WeatherApp.png" />
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="projectModal3"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div>
+                  <img
+                    id="modal-image"
+                    class="vw-100 md:vw-25"
+                    src="./assets/images/WeatherApp.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            href="https://gtgtcode.github.io/weather-app/"
+            style="display: block"
+            ><button class="project-link">Visit Site</button></a
+          >
+        </div>
+        <div class="col project-col">
+          <h6 class="project-content-header">Code Quiz</h6>
+          <p id="project-description">
+            A fun and easy quiz game that tests your code knowledge.
+          </p>
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#projectModal4"
+          >
+            <img class="project-img" src="./assets/images/CodeQuiz.png" />
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="projectModal4"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div>
+                  <img
+                    id="modal-image"
+                    class="vw-100 md:vw-25"
+                    src="./assets/images/CodeQuiz.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://gtgtcode.github.io/code-quiz/" style="display: block"
+            ><button class="project-link">Visit Site</button></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Content Container-->
+    <section
+      id="contact"
+      class="contact-container container w-50 lg-w-75 md-w-100"
+    >
+      <h1 class="content-header">Contact</h1>
+
+      <p style="text-align: center; padding-bottom: 60px; display: block">
+        Want to get in touch? Contact me here!
+      </p>
+
+      <div class="contact-content-container">
+        <a href="mailto:glthomas526@gmail.com" class="contact-link">
+          <span
+            class="material-symbols-outlined"
+            style="vertical-align: middle"
+          >
+            mail
+          </span>
+          <p class="contact-email">glthomas526@gmail.com</p>
+        </a>
+      </div>
+
+      <div class="contact-content-container">
+        <a href="tel:+8042293120" class="contact-link">
+          <span
+            class="material-symbols-outlined"
+            style="vertical-align: middle"
+          >
+            phone
+          </span>
+          <p class="contact-email">(804) 229-3120</p>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row">
+        <div class="col footer-col">
+          <p style="margin-bottom: 20px">George Thomas</p>
+          <a
+            href="mailto:glthomas526@gmail.com"
+            class="footer-link"
+            style="margin-bottom: 20px; display: block"
+            >glthomas526@gmail.com</a
+          >
+          <a
+            href="tel:+8042293120"
+            class="footer-link"
+            style="margin-bottom: 20px; display: block"
+            >(804) 229-3120</a
+          >
+          <div class="row" style="margin-bottom: 20px">
+            <div class="col">
+              <a href="https://github.com/gtgtcode"
+                ><img src="./assets/images/GitHub-Mark-Light-32px.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="col footer-col">
+          <h4 class="footer-header">Links</h4>
+          <ul class="footer-ul">
+            <li class="footer-li">
+              <a href="#top" class="footer-link">Home</a>
+            </li>
+            <li class="footer-li">
+              <a href="#about" class="footer-link">About</a>
+            </li>
+            <li class="footer-li">
+              <a href="#projects" class="footer-link">Projects</a>
+            </li>
+            <li class="footer-li">
+              <a href="#contact" class="footer-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
